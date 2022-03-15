@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(24, 23, 23, 0.911);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family:Segoe UI;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px gainsboro;
+  background-color: ghostwhite;
+  box-shadow: gainsboro 2px 0 5px 0;
+}
+
+.snake {
+  background-color: blue;
+  z-index: 10;
+}
+
+.apple {
+  background-color: red;
+}
+
+.grid>div {
+  width: 60px;
+  height: 60px;
+}
+
+.score {
+  display: none;
+}
+
+.container {
+  font-size: 30px;
+}
+
+.start {
+  height: 6vh;
+  width: 8vw;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
